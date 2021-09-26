@@ -1,1 +1,186 @@
-This is Lewis
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lu, Hong - Homepage</title>
+
+    <link href="defaultstyles.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- <link href="https://cdn.bootcss.com/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet"> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(".smooth").click(function(){
+            var href = $(this).attr("href");
+            var pos = $(href).offset().top;
+            $("html,body").animate({scrollTop: pos}, 1000);
+            return false;
+        });
+    </script>    
+</head>
+
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div id="banner">
+                <h1>Lu, Hong Homepage</h1>
+                <p> Becoming a Robotics Engineer </p>
+            </div>
+            <div id="nav">
+                <ul>
+                    <ui> <a href="index.html">Homepage</a> </ui>
+                    <ui> <a href="miscellaneous.html">miscellaneous</a> </ui>
+                </ul>
+            </div>
+            <!-- intro -->
+            <div id="page">
+                <div id="sidebar">
+                    <img src="img/luhong.jpeg" class="figure-img rounded" style=" width:fit-content; margin: 1px;">
+                    <p style="text-decoration:underline; font-style: italic;">luh.lewis@gmail.com</p>
+                    <p><img src="img/sig.png" style="width: 200px;"></p>
+                </div>
+                <h3 style="font-family:fantasy; font-size: x-large;">About Me</h3>
+                <p style="text-align: justify;">
+                    Lu, Hong (Lewis) recieved B.Eng. in Computer Engineering from <a href="https://nuaa.edu.cn/">Nanjing University of Aeronautics and Astronautics</a>, Nanjing, China in 2019, supervised by Dr. <a href="http://cyber.nuaa.edu.cn">Bryce Zhai</a>. 
+                    He was admitted to <a href="https://cornell.edu">Cornell University</a>, New York, United States, majoring in Electrical and Computer Engineering. Due to CoronaVirus breakout, 
+                    he worked at the <a href="https://shiyuzhao.westlake.edu.cn/">IUSL</a> in <a href="https://www.westlake.edu.cn/">Westlake Institute for Advanced Study</a>, Hangzhou, China, lead by Principal Investigator Dr.<a href="https://shiyuzhao.westlake.edu.cn/Shiyu_Zhao.htm"> Shiyu Zhao</a>.
+                </p>
+                
+                <p> 
+                    Currently, he is pursuing MSc Robotics at <a href="https://www.Sheffield.ac.uk/">The University of Sheffield, UK</a> starting from Oct.2020.
+                </p>
+                <p>
+                    Right now, he is focusing on the sequential (convex) optimization for motion planning as the Dissertation topic, tutored by Dr. <a href="https://www.sheffield.ac.uk/acse/department/people/academic/paul-trodden">Paul Trodden</a>. 
+                </p>
+                <p>
+                    The Dissertation "Path Planning Using Mixed Integer Linear Planning" is released <a href="pdf/Dissertation.pdf">here</a>.
+                </p>
+            </div>
+
+            <div class="container" id="Experience" style="width:90%;">
+                <div class="row">
+                   
+                   <div class="col">
+                       <h3 style="font-family:fantasy; font-size: x-large;">Experience</h3>
+                   </div>
+                   <div class="col-2"></div>
+                </div>
+                <div class="row bg-light">
+                    
+                    <div class="col-6">
+                        Research Assistant,  
+                        <p style="font-style: italic;">
+                            Westlake Institute for Advanced Study.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                       Mar, 2020 - present
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    
+                    <div class="col-6">
+                        Software Engineer Internship, 
+                        <p style="font-style: italic;">
+                            Fujitsu Ltd.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        Jun, 2018 - Oct, 2018
+                    </div>
+                   
+                </div>
+                <div class="row bg-light">
+            
+                    <div class="col-6">
+                        Research Assistant,
+                        <p style="font-style: italic;">
+                            Nanjing University of Aeronautics and Astronautics.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        Dec, 2017 - May, 2019
+                    </div>
+                </div>
+           </div>
+        </br>
+           <div class="container" id="Projects" style="width:90%;">
+                <div class="row">
+                    <div class="col-4">
+                        <h3 style="font-family:fantasy; font-size: x-large;">Learning and Project</h3>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row bg-light">
+                    <div class="col-6"><img src="img/ML.png" style="width: 100%; padding: 5%;"></div>
+                    <div class="col-6">
+                    </br>
+                        <p style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+                            Finished Machine Learning in Coursera.
+                        </p>
+                        <p style="text-align: center;">
+                            [<a href="https://github.com/Lewis-Lu/Coursera_MachineLearning">Github</a>]
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6"><img src="img/DL.png" style="width: 100%; padding: 5%;"></div>
+                    <div class="col-6">
+                    </br>
+                        <p style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+                            Finished Deep Learning in Coursera.
+                        </p>
+                    </div>
+                </div>
+                <div class="row bg-light">
+                    <div class="col-6"><img src="img/uds.jpg" style="width: 100%; padding: 5%;"></div>
+                    <div class="col-6">
+                    </br>
+                        <p style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+                            Unified Diagnostic Service on CAN-bus
+                        </p>
+                        <p style="text-align: center;">
+                            [<a href="https://zhuanlan.zhihu.com/c_1025686494299701248">Blog</a>]
+                        </p>
+                    </div>
+                </div>
+           </div>
+        
+
+           <div class="container" id="Visits">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col">
+                    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5j7d5he4v5n&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <p style="font:italic; text-align:center; margin:4%; font-style: italic;">Copyright © 2021 Hong Lewis Lu </p>
+                <a href="http://beian.miit.gov.cn" ><p style="text-align:center; margin:4%; font-size:small;">苏ICP备17049734号</p></a> 
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</footer>
+
+</html>
